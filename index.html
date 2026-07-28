@@ -777,7 +777,7 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
 async function cargarPropiedades() {
-  const {data, error} = await sb.from('propiedades').select('*').in('estado',['Disponible','Reservada','Vendida','Reservado','Vendido']).order('created_at',{ascending:false});
+  const {data, error} = await sb.from('propiedades').select('id,titulo,tipo,operacion,estado,precio,direccion,ciudad,provincia,ambientes,dormitorios,banios,mts,mts_cubiertos,mts_semicubiertos,plantas,antiguedad,amenities,descripcion,fotos,codigo,radar,destacada,created_at').in('estado',['Disponible','Reservada','Vendida','Reservado','Vendido']).order('created_at',{ascending:false});
   if (error || !data) return;
   todasProps = data;
   document.getElementById('stat-props').textContent = todasProps.length;

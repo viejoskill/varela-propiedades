@@ -320,7 +320,7 @@ async function cargarPropiedad() {
     return;
   }
 
-  const {data: x, error} = await sb.from('propiedades').select('*').eq('id', id).single();
+  const {data: x, error} = await sb.from('propiedades').select('id,titulo,tipo,operacion,estado,precio,direccion,ciudad,provincia,ambientes,dormitorios,banios,mts,mts_cubiertos,mts_semicubiertos,plantas,antiguedad,amenities,descripcion,fotos,codigo,radar,destacada,created_at').eq('id', id).single();
   if (error || !x) {
     document.getElementById('page-loading').innerHTML = '<div>Propiedad no encontrada</div>';
     return;
