@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
+<head> hasta la linea del <script> de supabase INCLUIDA).
+     NO toca el <style> que viene despues.
+     ============================================================ -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Varela Inmobiliaria · Costa del Este & Mar del Tuyú</title>
-<meta name="description" content="Inmobiliaria Varela - 20 años en Costa del Este. Tecnología real para propietarios reales. Propiedades en venta y alquiler.">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<!-- ---------- TITLE / DESCRIPTION ---------- -->
+<title>Inmobiliaria en Costa del Este | Casas y Lotes en Venta - Varela CDE</title>
+<meta name="description" content="Inmobiliaria Varela en Costa del Este y Mar del Tuyu. 35 anos en la zona, en Costa del Este desde 2006. Casas, lotes y PH en venta. Tasacion online gratuita y Portal del Propietario. WhatsApp 2246 58-6030.">
+
+<!-- ---------- CANONICAL / IDIOMA / ROBOTS ---------- -->
+<link rel="canonical" href="https://www.varelapropiedadescde.com.ar/">
+<link rel="alternate" hreflang="es-AR" href="https://www.varelapropiedadescde.com.ar/">
+<link rel="alternate" hreflang="x-default" href="https://www.varelapropiedadescde.com.ar/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+
+<!-- ---------- GEO (senal local secundaria) ---------- -->
+<meta name="geo.region" content="AR-B">
+<meta name="geo.placename" content="Costa del Este, Partido de La Costa, Buenos Aires">
+<meta name="geo.position" content="-36.617;-56.686">
+<meta name="ICBM" content="-36.617, -56.686">
+
+<!-- ---------- OPEN GRAPH ---------- -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Inmobiliaria Varela CDE">
+<meta property="og:title" content="Inmobiliaria en Costa del Este | Casas y Lotes en Venta - Varela CDE">
+<meta property="og:description" content="Casas, lotes y PH en venta en Costa del Este y Mar del Tuyu. Tasacion online gratuita y Portal del Propietario con metricas en tiempo real.">
+<meta property="og:url" content="https://www.varelapropiedadescde.com.ar/">
+<!-- CREAR este archivo: 1200x630 JPG, <200KB. Ver nota P-OG al final del doc de parches. -->
+<meta property="og:image" content="https://www.varelapropiedadescde.com.ar/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Inmobiliaria Varela CDE - Costa del Este">
+
+<!-- ---------- TWITTER / X ---------- -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Inmobiliaria en Costa del Este | Varela CDE">
+<meta name="twitter:description" content="Casas, lotes y PH en venta en Costa del Este y Mar del Tuyu. Tasacion online gratuita.">
+<meta name="twitter:image" content="https://www.varelapropiedadescde.com.ar/og-cover.jpg">
+
+<!-- ---------- ICONOS / PWA ---------- -->
+<link rel="icon" href="/logo-varela.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/logo-varela-192.png">
+<meta name="theme-color" content="#1E1E20">
+
+<!-- ---------- PERFORMANCE: preconnect ---------- -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fwwzjynerfghqsakkyvq.supabase.co" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+<!-- Fuentes: reducido a los pesos usados (antes 13 variantes). -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Supabase: defer para no bloquear el parseo del HTML -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
 <style>
 :root {
   --amarillo: #D6CC6A;
@@ -367,7 +418,7 @@ footer{background:var(--bg-2);padding:48px 40px;text-align:center;border-top:1px
 
 <!-- ================= NAV ================= -->
 <nav>
-  <a href="#" class="nav-logo">
+  <a href="/" class="nav-logo" aria-label="Inmobiliaria Varela CDE - Inicio">
     <img src="https://www.varelapropiedadescde.com.ar/logo-varela.svg" alt="Varela Inmobiliaria">
   </a>
   <div class="nav-links">
@@ -1199,6 +1250,210 @@ cargarPropiedades().then(() => {
       })
     }
 })(document,"script");
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.varelapropiedadescde.com.ar/#website",
+      "url": "https://www.varelapropiedadescde.com.ar/",
+      "name": "Inmobiliaria Varela CDE",
+      "inLanguage": "es-AR",
+      "publisher": { "@id": "https://www.varelapropiedadescde.com.ar/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.varelapropiedadescde.com.ar/propiedades/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": ["RealEstateAgent", "LocalBusiness"],
+      "@id": "https://www.varelapropiedadescde.com.ar/#organization",
+      "name": "Inmobiliaria Varela CDE",
+      "alternateName": ["Varela Inmobiliaria", "Inmobiliaria Varela Costa del Este"],
+      "url": "https://www.varelapropiedadescde.com.ar/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.varelapropiedadescde.com.ar/#logo",
+        "url": "https://www.varelapropiedadescde.com.ar/logo-varela.svg",
+        "caption": "Inmobiliaria Varela CDE"
+      },
+      "image": "https://www.varelapropiedadescde.com.ar/og-cover.jpg",
+      "description": "Inmobiliaria con 35 anos de trayectoria en el Partido de La Costa y presencia en Costa del Este desde 2006. Compra, venta y tasacion de casas, lotes, PH, duplex y departamentos en Costa del Este y Mar del Tuyu. Portal del Propietario con metricas en tiempo real y asistente de IA para atencion 24 horas.",
+      "telephone": "+5492246586030",
+      "email": "varelavendecde@gmail.com",
+      "foundingDate": "1991",
+      "slogan": "Tecnologia real para propietarios reales.",
+      "priceRange": "USD",
+      "currenciesAccepted": "USD, ARS",
+      "areaServed": [
+        { "@type": "City", "name": "Costa del Este" },
+        { "@type": "City", "name": "Mar del Tuyu" },
+        { "@type": "City", "name": "Aguas Verdes" },
+        { "@type": "City", "name": "La Lucila del Mar" },
+        { "@type": "City", "name": "San Bernardo del Tuyu" },
+        { "@type": "AdministrativeArea", "name": "Partido de La Costa" }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Interbalnearia Interna 162",
+        "addressLocality": "Costa del Este",
+        "addressRegion": "Buenos Aires",
+        "postalCode": "B7108",
+        "addressCountry": "AR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -36.617,
+        "longitude": -56.686
+      },
+      "hasMap": "REVISAR_LINK_GBP",
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "19:30"
+      }],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+5492246586030",
+          "contactType": "sales",
+          "areaServed": "AR",
+          "availableLanguage": "Spanish"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+542257404000",
+          "contactType": "reservations",
+          "name": "Alquileres",
+          "areaServed": "AR",
+          "availableLanguage": "Spanish"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/inmobiliariavarelacde/",
+        "https://www.facebook.com/inmobiliariavarelacde/"
+      ],
+      "founder": { "@id": "https://www.varelapropiedadescde.com.ar/#sebastian" },
+      "employee": [
+        { "@id": "https://www.varelapropiedadescde.com.ar/#sebastian" },
+        { "@id": "https://www.varelapropiedadescde.com.ar/#jorge" }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Tasacion online gratuita de propiedades",
+            "serviceType": "Tasacion inmobiliaria",
+            "description": "El propietario completa los datos de su propiedad y recibe una tasacion. Servicio gratuito y sin compromiso.",
+            "url": "https://www.varelapropiedadescde.com.ar/tasador.html",
+            "provider": { "@id": "https://www.varelapropiedadescde.com.ar/#organization" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "Partido de La Costa" }
+          },
+          "price": "0",
+          "priceCurrency": "ARS"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Comercializacion de propiedades con Portal del Propietario",
+            "serviceType": "Intermediacion inmobiliaria",
+            "description": "Publicacion multiportal con un dashboard privado donde el propietario ve en tiempo real visitas, consultas, interesados y feedback de cada visita a su propiedad.",
+            "provider": { "@id": "https://www.varelapropiedadescde.com.ar/#organization" }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.varelapropiedadescde.com.ar/#sebastian",
+      "name": "Sebastian Varela",
+      "jobTitle": "Titular",
+      "image": "https://www.varelapropiedadescde.com.ar/sebastian.jpg",
+      "worksFor": { "@id": "https://www.varelapropiedadescde.com.ar/#organization" },
+      "knowsAbout": [
+        "Mercado inmobiliario de Costa del Este",
+        "Tasacion de propiedades en el Partido de La Costa",
+        "Inversion inmobiliaria en la costa atlantica de Buenos Aires"
+      ],
+      "sameAs": ["https://www.instagram.com/inmobiliariavarelacde/"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.varelapropiedadescde.com.ar/#jorge",
+      "name": "Jorge Varela",
+      "jobTitle": "Martillero Publico",
+      "identifier": "T III F 103 N 865",
+      "worksFor": { "@id": "https://www.varelapropiedadescde.com.ar/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.varelapropiedadescde.com.ar/#webpage",
+      "url": "https://www.varelapropiedadescde.com.ar/",
+      "name": "Inmobiliaria en Costa del Este | Casas y Lotes en Venta - Varela CDE",
+      "isPartOf": { "@id": "https://www.varelapropiedadescde.com.ar/#website" },
+      "about": { "@id": "https://www.varelapropiedadescde.com.ar/#organization" },
+      "primaryImageOfPage": { "@id": "https://www.varelapropiedadescde.com.ar/#logo" },
+      "inLanguage": "es-AR"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.varelapropiedadescde.com.ar/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cuanto cuesta tasar mi propiedad en Costa del Este?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La tasacion en Varela Inmobiliaria es gratuita y sin compromiso. El propietario carga los datos de su propiedad en el tasador online y recibe una estimacion de valor. Para una tasacion presencial y precisa, coordinamos una visita sin costo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que es el Portal del Propietario de Varela?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un panel privado, exclusivo de Varela Inmobiliaria, donde cada propietario que comercializa su propiedad con nosotros ve en tiempo real cuantas visitas y consultas recibio, quienes son los interesados y el feedback de cada visita. Ninguna otra inmobiliaria del Partido de La Costa ofrece este seguimiento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que documentacion necesito para vender una propiedad en el Partido de La Costa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "REVISAR con el circuito real: escritura, plano aprobado, libre deuda municipal del Partido de La Costa, libre deuda de servicios, DNI y CUIT de los titulares. Si la propiedad proviene de una sucesion, tambien la declaratoria de herederos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cuanto vale un lote en Costa del Este en 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "REVISAR con el rango real de tu cartera. Referencia general: los lotes en Costa del Este se comercializan segun ubicacion, medidas y servicios; los internos arrancan mas economicos y los cercanos a la playa o sobre avenidas asfaltadas valen mas. Varela publica el precio de cada lote disponible en la seccion Propiedades."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.varelapropiedadescde.com.ar/#breadcrumb",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://www.varelapropiedadescde.com.ar/"
+      }]
+    }
+  ]
+}
 </script>
 </body>
 </html>
