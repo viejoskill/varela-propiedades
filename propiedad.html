@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varela Inmobiliaria - Propiedad</title>
+<link rel="icon" href="favicon.ico">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Varela Inmobiliaria">
+<meta name="theme-color" content="#F5E642">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --amarillo: #F5E642;
+  --amarillo-dark: #D4C520;
+  --gris: #3D3F52;
+  --gris-light: #6B7280;
+  --bg: #FAF9F5;
+  --bg-card: #FFFFFF;
+  --text: #1F2937;
+  --text-2: #4B5563;
+  --text-3: #9CA3AF;
+  --border: #E5E7EB;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-lg: 0 10px 40px rgba(0,0,0,0.1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text); }
+
+.header {
+  background: var(--gris);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid var(--amarillo);
+}
+.header img { height: 48px; }
+.header a { color: var(--amarillo); text-decoration: none; font-size: 13px; font-weight: 600; }
+
+.gallery {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+  background: #000;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.gallery img.active { display: block; }
+.gallery-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+.gallery-btn:hover { background: rgba(0,0,0,0.8); }
+.gallery-btn.prev { left: 12px; }
+.gallery-btn.next { right: 12px; }
+.gallery-counter {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.gallery-stamp{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-18deg);font-size:42px;font-weight:900;padding:14px 44px;border-radius:10px;text-transform:uppercase;letter-spacing:5px;z-index:3;pointer-events:none;text-shadow:0 2px 10px rgba(0,0,0,0.4);}
+.gallery-stamp.reservada{color:#FF3B3B;border:5px solid #FF3B3B;background:rgba(0,0,0,0.5);box-shadow:0 0 30px rgba(255,59,59,0.3);}
+.gallery-stamp.vendida{color:var(--amarillo);border:5px solid var(--amarillo);background:rgba(0,0,0,0.5);box-shadow:0 0 30px rgba(245,230,66,0.3);}
+.gallery-stamp-overlay{position:absolute;inset:0;background:rgba(0,0,0,0.2);z-index:2;}
+
+.thumbs {
+  display: flex;
+  gap: 4px;
+  padding: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+.thumbs img {
+  width: 70px;
+  height: 52px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+}
+.thumbs img.active, .thumbs img:hover { opacity: 1; }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.badges { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.badge {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.badge-green { background: #E7F9EE; color: #166534; }
+.badge-blue { background: #DBEAFE; color: #1E40AF; }
+.badge-gray { background: #F3F4F6; color: #374151; }
+
+.precio {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--gris);
+  margin-bottom: 4px;
+}
+.direccion {
+  font-size: 14px;
+  color: var(--text-2);
+  margin-bottom: 16px;
+}
+
+.specs {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.spec {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 16px;
+  text-align: center;
+  min-width: 80px;
+}
+.spec-val { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--gris); }
+.spec-label { font-size: 10px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.5px; }
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+.card-header {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gris);
+}
+.card-body { padding: 18px; }
+
+.desc { font-size: 14px; line-height: 1.8; color: var(--text-2); }
+
+.datos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+.dato {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+.dato-label { color: var(--text-3); }
+.dato-val { color: var(--text); font-weight: 600; }
+
+.cta-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+  padding: 12px 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  z-index: 100;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+}
+.cta-btn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'DM Sans', sans-serif;
+}
+.cta-wa { background: #25D366; color: #fff; }
+.cta-wa:hover { background: #1DA851; }
+.cta-tel { background: var(--bg); color: var(--text); border: 1px solid var(--border); }
+.cta-tel:hover { background: var(--border); }
+
+.footer-space { height: 80px; }
+
+.loading-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  font-size: 14px;
+  color: var(--text-3);
+}
+
+@media (max-width: 600px) {
+  .precio { font-size: 28px; }
+  .datos-grid { grid-template-columns: 1fr; }
+  .specs { gap: 8px; }
+  .spec { min-width: 70px; padding: 8px 12px; }
+}
+</style>
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '188871137299006');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=188871137299006&ev=PageView&noscript=1"/></noscript>
+</head>
+<body>
+
+<div class="header">
+  <a href="index.html"><img src="https://www.varelapropiedadescde.com.ar/logo-varela.png" alt="Varela Inmobiliaria" onerror="this.outerHTML='<span style=color:#F5E642;font-weight:700;font-size:16px>VARELA INMOBILIARIA</span>'"></a>
+  <a href="index.html">← Ver todas las propiedades</a>
+</div>
+
+<div id="page-loading" class="loading-page">
+  <div>🏠 Cargando propiedad...</div>
+</div>
+
+<div id="page-content" style="display:none;">
+  <div class="gallery" id="gallery"></div>
+  <div class="thumbs" id="thumbs"></div>
+
+  <div class="container">
+    <div class="badges" id="badges"></div>
+    <div class="precio" id="precio"></div>
+    <div class="direccion" id="direccion"></div>
+
+    <div class="specs" id="specs"></div>
+
+    <div class="card" id="desc-card" style="display:none;">
+      <div class="card-header">Descripción</div>
+      <div class="card-body desc" id="descripcion"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">Datos de la propiedad</div>
+      <div class="card-body">
+        <div class="datos-grid" id="datos"></div>
+      </div>
+    </div>
+
+    <div class="footer-space"></div>
+  </div>
+</div>
+
+<div class="cta-bar" id="cta-bar" style="display:none;">
+  <a class="cta-btn cta-wa" id="btn-wa" href="#">💬 Consultar por WhatsApp</a>
+  <a class="cta-btn cta-tel" href="tel:+5492246586030">📞 Llamar</a>
+</div>
+
+<script>
+const SUPABASE_URL = 'https://tlptpyhtddwaiwzmzgcg.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_WMr3U_Vq_jcXqIZ8H_ecfw_2w8c7D7n';
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const WA_NUMERO = '5492246586030';
+
+// === VERA OS: mismo mapeo que index.html ===
+const TYPE_LABEL = { casa:'Casa', terreno:'Terreno / Lote', departamento:'Departamento', ph:'PH', duplex:'Duplex', local:'Local comercial', galpon:'Local comercial' };
+const OP_LABEL = { venta:'Venta', alquiler:'Alquiler' };
+const STATUS_LABEL = { active:'Disponible', reserved:'Reservada', sold:'Vendida' };
+function photoUrl(img) {
+  return SUPABASE_URL + '/storage/v1/object/public/' + img.bucket + '/' + img.object_path;
+}
+function normalizarPropiedad(p) {
+  var fotos = (p.property_images || []).slice().sort(function(a,b){ return a.position - b.position; }).map(photoUrl);
+  return {
+    id: p.id,
+    titulo: p.title,
+    tipo: TYPE_LABEL[p.type] || p.type,
+    operacion: OP_LABEL[p.operation] || p.operation,
+    estado: STATUS_LABEL[p.status] || p.status,
+    precio: p.price,
+    direccion: p.address,
+    ciudad: p.city,
+    provincia: p.province,
+    ambientes: p.rooms,
+    dormitorios: p.bedrooms,
+    banios: p.bathrooms,
+    mts: p.lot_area_m2 || p.area_m2,
+    mts_cubiertos: p.area_m2,
+    mts_semicubiertos: p.semi_covered_area_m2,
+    plantas: p.floors,
+    amenities: p.amenities,
+    descripcion: p.description,
+    fotos: fotos,
+    codigo: p.codigo,
+    radar: p.radar,
+    created_at: p.created_at
+  };
+}
+
+let currentSlide = 0;
+let fotos = [];
+
+function fmtP(p) {
+  if (!p) return 'Consultar';
+  return 'USD ' + parseInt(p).toLocaleString('es-AR');
+}
+
+async function cargarPropiedad() {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  if (!id) {
+    document.getElementById('page-loading').innerHTML = '<div>Propiedad no encontrada</div>';
+    return;
+  }
+
+  // Links viejos usan el id de texto de la CRM anterior (legacy_id); los nuevos usan uuid.
+  var esUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id);
+  var query = sb.from('properties')
+    .select('id,title,type,operation,status,price,address,city,province,rooms,bedrooms,bathrooms,area_m2,lot_area_m2,semi_covered_area_m2,floors,amenities,description,codigo,radar,created_at,legacy_id,property_images(bucket,object_path,position)')
+    .order('position', {foreignTable:'property_images', ascending:true});
+  query = esUuid ? query.eq('id', id) : query.eq('legacy_id', id);
+  const {data: raw, error} = await query.maybeSingle();
+  if (error || !raw) {
+    document.getElementById('page-loading').innerHTML = '<div>Propiedad no encontrada</div>';
+    return;
+  }
+  const x = normalizarPropiedad(raw);
+
+  // Titulo de la página
+  document.title = (x.titulo || x.tipo + ' en ' + (x.ciudad || '')) + ' - Varela Inmobiliaria';
+
+  // Galería
+  fotos = x.fotos || [];
+  var galleryHtml = '';
+  var thumbsHtml = '';
+  fotos.forEach(function(f, i) {
+    galleryHtml += '<img src="' + f + '" class="' + (i===0?'active':'') + '" alt="Foto ' + (i+1) + '">';
+    thumbsHtml += '<img src="' + f + '" class="' + (i===0?'active':'') + '" onclick="irSlide(' + i + ')" alt="Miniatura">';
+  });
+  if (fotos.length > 1) {
+    galleryHtml += '<button class="gallery-btn prev" onclick="cambiarSlide(-1)">‹</button>';
+    galleryHtml += '<button class="gallery-btn next" onclick="cambiarSlide(1)">›</button>';
+  }
+  galleryHtml += '<div class="gallery-counter" id="counter">1 / ' + fotos.length + '</div>';
+  // Sello stamp para Reservada/Vendida
+  if (x.estado === 'Reservada' || x.estado === 'Reservado') {
+    galleryHtml += '<div class="gallery-stamp-overlay"></div><span class="gallery-stamp reservada">Reservada</span>';
+  } else if (x.estado === 'Vendida' || x.estado === 'Vendido') {
+    galleryHtml += '<div class="gallery-stamp-overlay"></div><span class="gallery-stamp vendida">Vendida</span>';
+  }
+  document.getElementById('gallery').innerHTML = galleryHtml;
+  document.getElementById('thumbs').innerHTML = thumbsHtml;
+
+  // Badges
+  var badges = '';
+  if (x.estado) badges += '<span class="badge badge-green">' + x.estado + '</span>';
+  if (x.operacion) badges += '<span class="badge badge-blue">' + x.operacion + '</span>';
+  if (x.tipo) badges += '<span class="badge badge-gray">' + x.tipo + '</span>';
+  document.getElementById('badges').innerHTML = badges;
+
+  // Precio
+  document.getElementById('precio').textContent = fmtP(x.precio);
+
+  // Dirección
+  var dir = [x.direccion, x.zona, x.ciudad, x.provincia].filter(Boolean).join(', ');
+  document.getElementById('direccion').innerHTML = '📍 ' + dir;
+
+  // Specs
+  var specs = '';
+  if (x.mts) specs += '<div class="spec"><div class="spec-val">' + x.mts + '</div><div class="spec-label">m² terreno</div></div>';
+  if (x.mts_cubiertos) specs += '<div class="spec"><div class="spec-val">' + x.mts_cubiertos + '</div><div class="spec-label">m² cubiertos</div></div>';
+  if (x.ambientes) specs += '<div class="spec"><div class="spec-val">' + x.ambientes + '</div><div class="spec-label">amb</div></div>';
+  if (x.dormitorios) specs += '<div class="spec"><div class="spec-val">' + x.dormitorios + '</div><div class="spec-label">dorm</div></div>';
+  if (x.banios) specs += '<div class="spec"><div class="spec-val">' + x.banios + '</div><div class="spec-label">baños</div></div>';
+  if (x.antiguedad) specs += '<div class="spec"><div class="spec-val" style="font-size:14px;">' + x.antiguedad + '</div><div class="spec-label">antigüedad</div></div>';
+  document.getElementById('specs').innerHTML = specs;
+
+  // Descripción
+  if (x.descripcion) {
+    document.getElementById('descripcion').textContent = x.descripcion;
+    document.getElementById('desc-card').style.display = 'block';
+  }
+
+  // Datos
+  var datos = [
+    ['Código', x.codigo],
+    ['Tipo', x.tipo],
+    ['Operación', x.operacion],
+    ['Sup. lote', x.mts ? x.mts + ' m²' : null],
+    ['Sup. cubierta', x.mts_cubiertos ? x.mts_cubiertos + ' m²' : null],
+    ['Sup. semicubierta', x.mts_semicubiertos ? x.mts_semicubiertos + ' m²' : null],
+    ['Ambientes', x.ambientes],
+    ['Dormitorios', x.dormitorios],
+    ['Baños', x.banios],
+    ['Plantas', x.plantas],
+    ['Antigüedad', x.antiguedad],
+    ['Estado', x.estado]
+  ].filter(function(d) { return d[1]; });
+  document.getElementById('datos').innerHTML = datos.map(function(d) {
+    return '<div class="dato"><span class="dato-label">' + d[0] + '</span><span class="dato-val">' + d[1] + '</span></div>';
+  }).join('');
+
+  // CTA WhatsApp
+  var msgWA = 'Hola, vi la propiedad ' + (x.codigo || '') + ' (' + (x.titulo || x.tipo) + ') en la web y quiero más información.';
+  document.getElementById('btn-wa').href = 'https://wa.me/' + WA_NUMERO + '?text=' + encodeURIComponent(msgWA);
+
+  // Mostrar contenido
+  document.getElementById('page-loading').style.display = 'none';
+  document.getElementById('page-content').style.display = 'block';
+  document.getElementById('cta-bar').style.display = 'flex';
+}
+
+function cambiarSlide(dir) {
+  currentSlide = (currentSlide + dir + fotos.length) % fotos.length;
+  actualizarGaleria();
+}
+function irSlide(i) {
+  currentSlide = i;
+  actualizarGaleria();
+}
+function actualizarGaleria() {
+  var imgs = document.querySelectorAll('.gallery img');
+  var thumbImgs = document.querySelectorAll('.thumbs img');
+  imgs.forEach(function(img, i) { img.className = i === currentSlide ? 'active' : ''; });
+  thumbImgs.forEach(function(img, i) { img.className = i === currentSlide ? 'active' : ''; });
+  document.getElementById('counter').textContent = (currentSlide + 1) + ' / ' + fotos.length;
+}
+
+// Swipe en mobile
+var touchStartX = 0;
+document.addEventListener('touchstart', function(e) { touchStartX = e.touches[0].clientX; });
+document.addEventListener('touchend', function(e) {
+  var diff = touchStartX - e.changedTouches[0].clientX;
+  if (Math.abs(diff) > 50) cambiarSlide(diff > 0 ? 1 : -1);
+});
+
+cargarPropiedad();
+</script>
+<script>
+(function(d,t) {
+    var BASE_URL="https://cw.genloyal.com";
+    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=BASE_URL+"/packs/js/sdk.js";
+    g.defer = true;
+    g.async = true;
+    s.parentNode.insertBefore(g,s);
+    g.onload=function(){
+      window.chatwootSDK.run({
+        websiteToken: "5JKtKbausrNBgdtbZwuRf7bC",
+        baseUrl: BASE_URL,
+      })
+    }
+})(document,"script");
+</script>
+</body>
+</html>
