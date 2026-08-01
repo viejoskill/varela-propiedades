@@ -2,326 +2,327 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/tasador.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/vender.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.varelapropiedadescde.com.ar/propiedades/casa-en-venta-en-costa-del-este-3-amb-a-estrenar-vera-9c1d4217-2522-4649-a269-bbd536a71f39/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <loc>https://www.varelapropiedadescde.com.ar/propiedades/casa-en-venta-en-costa-del-este-3-amb-a-estrenar-9c1d4217-2522-4649-a269-bbd536a71f39/</loc>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/942822abd6dd452cb6aff534993de1d9.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy85YzFkNDIxNy0yNTIyLTQ2NDktYTI2OS1iYmQ1MzZhNzFmMzkvaW1hZ2VzLzk0MjgyMmFiZDZkZDQ1MmNiNmFmZjUzNDk5M2RlMWQ5LnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODQ2NzkyODcsImV4cCI6MjEwMDAzOTI4N30.4y69Qqz_TlThlWkxqkZKX2hRxU8n6sS-ggT3ae3seY8</image:loc></image:image>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/1555ff9ba8f248cebe6b8526333af107.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy85YzFkNDIxNy0yNTIyLTQ2NDktYTI2OS1iYmQ1MzZhNzFmMzkvaW1hZ2VzLzE1NTVmZjliYThmMjQ4Y2ViZTZiODUyNjMzM2FmMTA3LnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODQ2NzkyODcsImV4cCI6MjEwMDAzOTI4N30.qPzab-ZN2g3uO0kunEsMwYL8Fj3Qb_B9JTHEgmKPPH8</image:loc></image:image>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/2576febae2d4476e9c5142e7e8d8281c.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy85YzFkNDIxNy0yNTIyLTQ2NDktYTI2OS1iYmQ1MzZhNzFmMzkvaW1hZ2VzLzI1NzZmZWJhZTJkNDQ3NmU5YzUxNDJlN2U4ZDgyODFjLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODQ2NzkyODcsImV4cCI6MjEwMDAzOTI4N30.GCrUU2JRbkgdgjiz3sfqx7mO1yeuXdbXtSOy40ueaZg</image:loc></image:image>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/382ab1622e514a29a38831ebe866a0ea.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy85YzFkNDIxNy0yNTIyLTQ2NDktYTI2OS1iYmQ1MzZhNzFmMzkvaW1hZ2VzLzM4MmFiMTYyMmU1MTRhMjlhMzg4MzFlYmU4NjZhMGVhLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODQ2NzkyODcsImV4cCI6MjEwMDAzOTI4N30.ToU1k6mE6MfE8qcLBXiFJIEXsyRZ1dDT0bgKOcZHQAw</image:loc></image:image>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/59a03bc888a84d88b7a905e9ccfa2bc1.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy85YzFkNDIxNy0yNTIyLTQ2NDktYTI2OS1iYmQ1MzZhNzFmMzkvaW1hZ2VzLzU5YTAzYmM4ODhhODRkODhiN2E5MDVlOWNjZmEyYmMxLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODQ2NzkyODcsImV4cCI6MjEwMDAzOTI4N30.VWWGkCnrTKlaC7NDlnGOvATri83bqlD5jig8ZJYpn4Q</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/942822abd6dd452cb6aff534993de1d9.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/1555ff9ba8f248cebe6b8526333af107.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/2576febae2d4476e9c5142e7e8d8281c.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/382ab1622e514a29a38831ebe866a0ea.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/9c1d4217-2522-4649-a269-bbd536a71f39/images/59a03bc888a84d88b7a905e9ccfa2bc1.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-casa-3-amb-en-costa-del-este-var-432272/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mr2nfg6kyj13zx0mfu/000_1782945017516.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mr2nfg6kyj13zx0mfu/001_1782945020002.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mr2nfg6kyj13zx0mfu/002_1782945022217.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mr2nfg6kyj13zx0mfu/003_1782945025054.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mr2nfg6kyj13zx0mfu/004_1782945027055.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7bab1bf2-3170-4396-914e-837b0a03afb2/images/10c5c04c8f484216b785e9c56e7f590b.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7bab1bf2-3170-4396-914e-837b0a03afb2/images/44872afc07eb4674ab7882facec4bf9c.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7bab1bf2-3170-4396-914e-837b0a03afb2/images/ef751f00eb0a435a8681dfbaf30dd457.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7bab1bf2-3170-4396-914e-837b0a03afb2/images/63ed088755be49369fd13c273be9db68.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7bab1bf2-3170-4396-914e-837b0a03afb2/images/8fba4ee7f6e14cd19e8b89e5933df9ef.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/casa-70m2-a-estrenar-costa-del-este-var-517024/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq89iy2mtwang243ov/ia_1781123020836.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq89iy2mtwang243ov/ia_1781122924836.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq89iy2mtwang243ov/ia_1781123659006.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq89iy2mtwang243ov/ia_1781123898591.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq89iy2mtwang243ov/ia_1781124124399.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7e580a66-ab07-4053-b3b5-ab2ec218d80e/images/2eccbec7937b49deacd42a6954721907.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7e580a66-ab07-4053-b3b5-ab2ec218d80e/images/1442bc92b1df4bfdbd8ce96f719a1194.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7e580a66-ab07-4053-b3b5-ab2ec218d80e/images/f9158bb1e2984806bc9f70c93dfceb3e.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7e580a66-ab07-4053-b3b5-ab2ec218d80e/images/e7c1fe0f9528400d8c6aeb975ee9c7ed.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7e580a66-ab07-4053-b3b5-ab2ec218d80e/images/1abe4774d2bb431499a86a4821b43a8a.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/casa-alta-gama-5amb-en-costa-del-este-var-817074/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq2yxdp5t946gfeiy5/ia_1780964715380.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq2yxdp5t946gfeiy5/001_1780787548862.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq2yxdp5t946gfeiy5/002_1780787551143.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq2yxdp5t946gfeiy5/003_1780787552374.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mq2yxdp5t946gfeiy5/004_1780787553436.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/bf24f21a-5603-448c-8c43-45ac58a80c3f/images/91455922488740e0b74000f7e596ffae.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/bf24f21a-5603-448c-8c43-45ac58a80c3f/images/d4158ca3c10c493187820aaf208640fe.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/bf24f21a-5603-448c-8c43-45ac58a80c3f/images/d76f5d1ad88246d5a1b4da762ffa521f.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/bf24f21a-5603-448c-8c43-45ac58a80c3f/images/5764b2d9999c4a9081f96ef3724219ee.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/bf24f21a-5603-448c-8c43-45ac58a80c3f/images/ec35a896442e4b7ea3d3cab7a9b88b2f.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-lote-en-alelies-casi-av-6-costa-del-este-inmobiliaria--var-186776/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/7d8a85e3-8792-4552-b6eb-9b78046f49ae/images/133e28ebf3a648f3a25f5c7d73c29df8.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy83ZDhhODVlMy04NzkyLTQ1NTItYjZlYi05Yjc4MDQ2ZjQ5YWUvaW1hZ2VzLzEzM2UyOGViZjNhNjQ4ZjNhMjVmNWM3ZDczYzI5ZGY4LmpwZWciLCJzY29wZSI6ImRvd25sb2FkIiwiaWF0IjoxNzg1MDE3MzQ5LCJleHAiOjIxMDAzNzczNDl9.TdCr7pOcLy0G4_BmQQnFPoY2oMxWyg03M7Cim-lob_Y</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/7d8a85e3-8792-4552-b6eb-9b78046f49ae/images/133e28ebf3a648f3a25f5c7d73c29df8.jpeg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-lote-alelies-58-costa-del-este-var-833891/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mo32th3foo7c6mr9zs/000_1778460063451.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f47494cf-b3ec-4295-8660-eb606e35c54c/images/457198c4ab5441bbbf6b937d7933647a.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-lote-en-tulipanes-y-dalias-costa-del-este-var-247764/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mo0m44kr466hi2jc1ng/003_1776296920358.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mo0m44kr466hi2jc1ng/001_1776291531451.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mo0m44kr466hi2jc1ng/002_1776291533955.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mo0m44kr466hi2jc1ng/003_1776291535582.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/fab00186-a90f-4f18-9016-6a70d849b3e7/images/7ca5ca21f41949139e94d880e3655bb7.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/fab00186-a90f-4f18-9016-6a70d849b3e7/images/eea15affdb6b4c75921a51768bb87e37.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/fab00186-a90f-4f18-9016-6a70d849b3e7/images/2f28717a549140d19358247eeda88553.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/fab00186-a90f-4f18-9016-6a70d849b3e7/images/e73e7f2646ab4684a4266848c6305c83.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-casa-premium-4-amb-c-gas-nat-costa-del-este-var-207627/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/451afa7f-4f3a-42cc-8ff6-9f0f8f18a264.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/056112a2-fcc6-454f-bebe-a486440de064.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/89fff3d7-f6b0-42b5-ad57-61e9192d8f6e.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/bc58dab2-8b65-45d1-8424-63ec273ef0f6.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/844ee996-d387-4f23-86b5-e8fdaff7c490.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/eba72d1a-7ba8-4161-9b5d-20df22e74359/images/36e72ee7ec9f405aa77cb6f266e8c16f.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/eba72d1a-7ba8-4161-9b5d-20df22e74359/images/33eba7d931fb4daba656b14251f1a841.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/eba72d1a-7ba8-4161-9b5d-20df22e74359/images/d3b03544b60a4625af68ca447be1892a.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/eba72d1a-7ba8-4161-9b5d-20df22e74359/images/1c08198a3c95405cb9f801ccce1304a5.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/eba72d1a-7ba8-4161-9b5d-20df22e74359/images/64c23f551ceb43628dab15aad35c51cb.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-casa-3amb-a-estrenar-en-costa-del-este-var-208133/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/af4d2d17-e5ee-47c1-87ef-79ee6eacef11.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/727cae0e-c0c1-4a19-90cf-bfee1d4bc7b3.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/15c8b007-1d97-4bb1-b552-8555cc3e7b17.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/17d7fd7c-be67-4b97-8926-d384f2c8bccc.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0d568ce0-4b50-43d2-a65c-d1f52d68e3b7/images/647f6ca4a4d340f8b1b8dc5e53c3f683.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0d568ce0-4b50-43d2-a65c-d1f52d68e3b7/images/e0bffe3eb2a7483488dd6caade85b957.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0d568ce0-4b50-43d2-a65c-d1f52d68e3b7/images/27343d2891224208874c2787721d6dc7.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0d568ce0-4b50-43d2-a65c-d1f52d68e3b7/images/a4e0cb0e31d4408abbf559af5ed19fdf.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-casa-a-estrenar-2-dorm-en-costa-del-este-var-208141/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/b8d7e634-8a6c-49b7-93b0-d4b8065b6027.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/345adcbe-9fee-4976-bb2a-22658cd71b4d.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/4cd241f6-1bc7-4107-a41a-9e6ebcdf3741.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/c3167ff9-e138-4234-939c-09e35794a37c.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/66009753-09da-4a7e-866a-b937c874f97d.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a9a38dd4-8366-40b9-8927-3092b5d47b37/images/f3776fb3610341be81adaa93772595ee.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a9a38dd4-8366-40b9-8927-3092b5d47b37/images/ef326cb0ddfb453999a9bc43b7ef9392.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a9a38dd4-8366-40b9-8927-3092b5d47b37/images/f12bf74a2c9d484babd7ceec45bf1bbf.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a9a38dd4-8366-40b9-8927-3092b5d47b37/images/b7857e97b5984d9fa5c18385bc76f4e3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a9a38dd4-8366-40b9-8927-3092b5d47b37/images/6e982f104ba240619ecd3dbc9b8a231a.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/local-comercial-ideal-gastronomico-en-costa-del-este-var-208142/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/3936ed54-1d19-4721-9c55-cce06458fff5.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/e43575e8-9300-42db-a9ae-1b9656001cb5.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/524681a0-11ee-4d76-9901-d27d60a1d97d.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/41690f68-0be8-4a76-8f55-29185867fbd7.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/fab02377-69f3-43fe-a0e2-d410f05ba010.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/e50cdaeb-7fde-4678-8acb-9e5d5c6a47c8/images/42f8fc720d4e4cad82f5d45505e3d16c.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/e50cdaeb-7fde-4678-8acb-9e5d5c6a47c8/images/d995ca3e43c14f819a1577ae560fac4d.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/e50cdaeb-7fde-4678-8acb-9e5d5c6a47c8/images/2facfab6ffb044e2a80ffb1532f25a06.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/e50cdaeb-7fde-4678-8acb-9e5d5c6a47c8/images/8672817402c14c6080177082535c893c.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/e50cdaeb-7fde-4678-8acb-9e5d5c6a47c8/images/8371438b77aa423e81594ef0ccca955c.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-casa-economica-en-costa-del-este-var-208145/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9wp6t44uxovcbud/000_1776306719815.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9wp6t44uxovcbud/001_1776306721698.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9wp6t44uxovcbud/002_1776306723944.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9wp6t44uxovcbud/003_1776306725448.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9wp6t44uxovcbud/004_1776306726654.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f7517272-ff95-4b74-9382-bc1906578efa/images/b1d7e2063f2d4ed9979e0e78ddc1ea1c.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f7517272-ff95-4b74-9382-bc1906578efa/images/816767691acb49babc9b52d1840bc264.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f7517272-ff95-4b74-9382-bc1906578efa/images/b057fce40f53418cba54d39e10bd5306.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f7517272-ff95-4b74-9382-bc1906578efa/images/0b56535e627a4d4cb24746e4080cc51b.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f7517272-ff95-4b74-9382-bc1906578efa/images/9d19b8f7219146eaacaf1aa46423de17.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-casa-a-estrenar-2-dormis-en-costa-del-este-var-208147/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/602b4b17-5ea4-4d2c-9339-518cab639dcf.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/e2d88731-0c31-461c-9678-ef8615735e64.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/092582a3-7414-4ca8-aefd-1cb953fd9d9f.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/88dac1f5-b53a-4e11-8101-88d701476952.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/e5ae49f2-50cc-45e2-a92f-5d19607e4e65.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/3ff2f830-c863-492e-8ed5-b3921275d9f4/images/94a783904ecf4a6491cd30c9f5957875.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/3ff2f830-c863-492e-8ed5-b3921275d9f4/images/70387901fe324a2dad472bef9284bfba.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/3ff2f830-c863-492e-8ed5-b3921275d9f4/images/c38095c424774544ab4f2997d0392f0f.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/3ff2f830-c863-492e-8ed5-b3921275d9f4/images/a76d1353eb484c33be5e7b9efc546962.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/3ff2f830-c863-492e-8ed5-b3921275d9f4/images/95bb80621e564545a2b7e86fe1791d0e.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/casa-de-diseno-5-amb-en-la-reserva-var-208150/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/e2ca6db9-4785-42d0-9e5a-a13be39ebb11.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/129cd322-28fe-4e5e-a7aa-15905f2dd439.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/b6e56e62-2d82-4172-88df-fb128bc2599f.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/2e0f4d78-35dc-45d7-a01a-a019b9d31c1d.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/6f595d7a-9f4d-414b-a4b8-e92612d415d1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/8fcbfc86-7846-45a7-9085-bdda64f5b3d5/images/65a0ddc5b2aa4ca6968c280f384a481f.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/8fcbfc86-7846-45a7-9085-bdda64f5b3d5/images/821376cbafc74db995aed94c86c27bdb.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/8fcbfc86-7846-45a7-9085-bdda64f5b3d5/images/36439ac326084245a8e3ef403edf8206.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/8fcbfc86-7846-45a7-9085-bdda64f5b3d5/images/033d2fad58844e1ea3a81eda59b29e60.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/8fcbfc86-7846-45a7-9085-bdda64f5b3d5/images/7e5f3521923e4daf80aedf7074082895.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-de-casa-4-ambientes-en-costa-del-este-var-208151/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/a9d136c7-8799-45fc-8714-bdcd33ced6c8.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/b9f48708-2877-41a8-a62c-9ef24204a5ad.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/7d917c17-2b2c-4fdb-a744-c0153d47aa04.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/108ddf71-cfe4-4c51-809a-adbe7bace6d3.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/ab35e79a-2d31-483a-89dc-ee58c2cfbf92.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/beb7ec01-5f41-435d-84a6-9a8f14599a7f/images/4ca17f4970584770ac3d8978842ec3cc.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/beb7ec01-5f41-435d-84a6-9a8f14599a7f/images/b7e34cc807c344beb0abe3306fa6ebaa.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/beb7ec01-5f41-435d-84a6-9a8f14599a7f/images/2ab267f21c244ed7b5e9eb74286efc72.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/beb7ec01-5f41-435d-84a6-9a8f14599a7f/images/594ed5a90cbf4826bcfc7f5e50b6e61e.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/beb7ec01-5f41-435d-84a6-9a8f14599a7f/images/904971f3bb434da39e1b6c801e1d7abd.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-lote-av-5-costa-del-este-financia-inmobiliaria-varela-var-208153/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9uzxnh23onbytea/000_1776382718952.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/ogleapis.com/portales-prod-images/6488/property-images/2026/3/ia_1782699947037.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/df179a86-5b02-454d-a323-5bc58d765118/images/fc513726a0d24be5863ec65bed317025.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/df179a86-5b02-454d-a323-5bc58d765118/images/3419cde1018c475d931822008f47a767.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/df179a86-5b02-454d-a323-5bc58d765118/images/49e89275817f44289da3bc73037b8406.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-chalet-3-dorm-sobre-lote-1100m2-var-208156/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/8b14ed94-4476-4431-b417-861393852c2f.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/5e09c999-f580-4d12-82f2-21f0a21352a9.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/7eaff5d5-826f-41a4-8b6d-cf8226a44fce.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/64bea48e-bc6a-47f7-9fd0-190b2eb40645.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/05776dd1-2c03-4f4e-a516-aabe59af3da8.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/5266c17d-35d3-4672-bdfe-f7eaa656fab2/images/d3bb2b9f710f4ce186ae0a6ab4efb1e9.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/5266c17d-35d3-4672-bdfe-f7eaa656fab2/images/fa808e67dd9b43af831248834f0d3659.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/5266c17d-35d3-4672-bdfe-f7eaa656fab2/images/98dd451db1c64322a842183d540d9bbc.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/5266c17d-35d3-4672-bdfe-f7eaa656fab2/images/68c95929320447f7a4d664dfd984629f.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/5266c17d-35d3-4672-bdfe-f7eaa656fab2/images/4abe350e648249098332e637045ac815.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/lote-en-alelies-50-costa-del-este-var-208158/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/b2fd0ef4-9617-4598-b049-da9def512253.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/cf4d458b-f43b-4fe3-8209-3ba9c9b52592.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/d4dfb1b2-be6f-494a-81f8-8c0e3b3a55dd/images/67e7974e2a2d44b6bf31768ded45dda6.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/d4dfb1b2-be6f-494a-81f8-8c0e3b3a55dd/images/073a4d61ec33488cb055eb2e98300998.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-lote-comercial-multifamiliar-costa-del-este-var-208164/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9tm6zk9vxq769pb/000_1776429635514.png</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/6f944c84-3aae-4c05-b229-205e18740679.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/ff8f9966-f06d-41fa-b41f-24cc9b924de8.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/1ea1f14a-6682-42dd-97e9-c0b0adab86cd/images/1dc6fad3ee6a473995a3cc2a8f004ced.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/1ea1f14a-6682-42dd-97e9-c0b0adab86cd/images/3f0be0cedebb41bf9ec0496214259012.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/1ea1f14a-6682-42dd-97e9-c0b0adab86cd/images/a0190be200ed4ef5af38748df461bc9c.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-lote-crisantemos-costa-del-este-var-208166/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9swyyybuvq7kmqi/000_1776430151118.png</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/0eb394dc-38df-4b88-9b1b-8498be0bf78e.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/44d5d373-067b-4ce9-a2af-94fab4e5c9b8.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/818b056a-e5ae-45c7-9153-48b973e41baf.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/0f4491f0-931b-4397-beb4-9f79dffaf31d.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/4d2a8418-cf33-484e-a41b-2569e6c5153a/images/dd7b37170ce54d0ea3012c8aa4c69752.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/4d2a8418-cf33-484e-a41b-2569e6c5153a/images/035c7ca5f0ef404f9dcd0a0db21555a0.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/4d2a8418-cf33-484e-a41b-2569e6c5153a/images/db746e81ddfe486787f16aca9449bf14.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/4d2a8418-cf33-484e-a41b-2569e6c5153a/images/d9292274ad6241158ebbba5752233b05.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/4d2a8418-cf33-484e-a41b-2569e6c5153a/images/8d6a2ec1537f47e098677ea7f7802be7.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-ph-3-dorm-c-gas-nat-en-costa-del-este-var-208169/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/9325cf9c-cccd-48f9-820e-8384b9ddb26c.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9sk2itm21iwv8ah/001_1776531339176.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9sk2itm21iwv8ah/002_1776531342764.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9sk2itm21iwv8ah/003_1776531346164.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9sk2itm21iwv8ah/004_1776531350770.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/2c5cf055-9c06-43b0-a897-1efbebe426b8/images/80988b5d6bb348f4b56e13f7301a4466.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/2c5cf055-9c06-43b0-a897-1efbebe426b8/images/895a6d0afbbf4533a7a4e3fca27c54b2.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/2c5cf055-9c06-43b0-a897-1efbebe426b8/images/082ae6024afd45b28c117d0fbcc5bb0b.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/2c5cf055-9c06-43b0-a897-1efbebe426b8/images/019aad8ccfe047dbae21bb32d3b42a2d.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/2c5cf055-9c06-43b0-a897-1efbebe426b8/images/7abedb4ca02f4e6ea261fca8c714a624.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-casa-3-dorm-a-estrenar-costa-del-este-var-208170/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/e368d4d1-6a10-4fa5-9d4c-eaa5ffc6b762.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/d20e1b04-238c-44df-bf10-92c2fc25d8bf.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/33aae726-c46a-4a34-a52d-511ebb81fc1e.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/84aaf3fc-2732-436c-9d94-1042f1d10030.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/30919cb5-78e4-4ceb-9c84-0306669dc3cd.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0cda0771-74cb-4012-92ad-ce15e6f15b42/images/ac5af0ee04c147a5928329d455db7eb0.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0cda0771-74cb-4012-92ad-ce15e6f15b42/images/72095816a22c48b49823941419c9a8f9.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0cda0771-74cb-4012-92ad-ce15e6f15b42/images/c369df528c984a8b9801689c6202c0b0.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0cda0771-74cb-4012-92ad-ce15e6f15b42/images/7373bd0ee1024e4784a178432a20e347.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0cda0771-74cb-4012-92ad-ce15e6f15b42/images/0984d21706cd4e73a071155a2dcf541c.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-2-chalets-sobre-av-4-con-gas-natural-costa-del-este-var-208460/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9rufji24b2wuj89/000_1777848581501.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9rufji24b2wuj89/001_1777848583039.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9rufji24b2wuj89/002_1777848585805.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9rufji24b2wuj89/003_1777848587323.png</image:loc></image:image>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9rufji24b2wuj89/004_1777848588726.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0af41e72-9a51-42e9-882f-f148ccfcff41/images/6d3623913c0d4d6aa6b64afb63857629.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0af41e72-9a51-42e9-882f-f148ccfcff41/images/3a69a526bb774b94a2a988bec938bc63.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0af41e72-9a51-42e9-882f-f148ccfcff41/images/31fa7945ed6c4779bc1a1e0a85ca5545.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0af41e72-9a51-42e9-882f-f148ccfcff41/images/6e35457cecd948e5b98672a583b88410.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0af41e72-9a51-42e9-882f-f148ccfcff41/images/5ceb6fc1e62e417a91444e87a8f465eb.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-ph-premium-en-la-reserva-con-gas-natural-var-208479/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/c5506898-f77f-4807-914f-1e088dc6dcc6.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/9039af89-8b76-4fd6-8b9b-582450f160bf.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/b5f3f6f8-e421-47a1-a319-d58bc9eadb80.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/7624e5f8-a06b-4fa9-a7b4-0cd7c3e48aec.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/9dc7b55b-d7c7-4c7e-97b5-738c33679910.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0697942e-a4d5-4abc-9bdc-588cbe803b59/images/cce5a02a4e774917ac327bc1492cb483.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0697942e-a4d5-4abc-9bdc-588cbe803b59/images/a028c21e58b344faa2940880d42785ae.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0697942e-a4d5-4abc-9bdc-588cbe803b59/images/1e39cefc75f74476b48f4ed618d9efb7.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0697942e-a4d5-4abc-9bdc-588cbe803b59/images/f1971d82bfb34b91803cb48186d86eb2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/0697942e-a4d5-4abc-9bdc-588cbe803b59/images/b4c613b990754461bfdfd3e033c15080.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-3-aparts-con-gas-nat-costa-del-este-var-208896/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/58cfbeb0-07d0-4328-b77c-6fa55fdaead4.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/f4d613e1-5a5d-49b3-b6b5-26c6eb641d41.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/345d3ca2-a9cf-4ac3-9b0f-bb080db8879b.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/dfba1968-f720-4667-8759-c039ed03ce77.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/f2b550af-7bd8-4cde-a271-c3c78fc150e1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/08a02991-570d-4237-b532-3a2036e2eaa8/images/ce66285cc99c408a896402f2395a1344.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/08a02991-570d-4237-b532-3a2036e2eaa8/images/1a0b57c8c44b433984330493577f9f70.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/08a02991-570d-4237-b532-3a2036e2eaa8/images/c144b200d26049a089b375bac301e92d.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/08a02991-570d-4237-b532-3a2036e2eaa8/images/c5e8983a1fb84381b70fbfdc3a1e74fc.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/08a02991-570d-4237-b532-3a2036e2eaa8/images/1dec9c051e094bf38e213b897543b927.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-lote-av-7-en-costa-del-este-var-208950/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://fwwzjynerfghqsakkyvq.supabase.co/storage/v1/object/public/fotos-propiedades/mnml9qrxo0vv6j0q7yh/000_1776432739458.png</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/dd45d013-8255-4d22-aaaa-efc4c1e0af8f.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/2805d410-cf99-4435-befc-644e7b422dd6.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/55082898-0806-4565-87ac-f803aafcff36.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/1ccd4c45-74bd-4962-bbff-25dabb4232e8.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a28f2bd6-961d-4644-84e4-d08b8fb5c34b/images/fc5c6e9ca7cc42d9ab899e3f9eaadabe.png</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a28f2bd6-961d-4644-84e4-d08b8fb5c34b/images/d69dbcf6c9db407ab9c1bd93a5919c6c.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a28f2bd6-961d-4644-84e4-d08b8fb5c34b/images/d4174639b2d545ba8bd6d85c2da1c099.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a28f2bd6-961d-4644-84e4-d08b8fb5c34b/images/9810dc39eee443da9f6ec8ca9f637b9f.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/a28f2bd6-961d-4644-84e4-d08b8fb5c34b/images/e147bdd5975649f5afbea4d487698f87.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-lote-margaritas-en-costa-del-este-var-208954/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/f4678842-0c7a-405a-ad48-dd4c7d3ac871/images/b40102b598264d3eb47c4580d8043c1e.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy9mNDY3ODg0Mi0wYzdhLTQwNWEtYWQ0OC1kZDRjN2QzYWM4NzEvaW1hZ2VzL2I0MDEwMmI1OTgyNjRkM2ViNDdjNDU4MGQ4MDQzYzFlLmpwZWciLCJzY29wZSI6ImRvd25sb2FkIiwiaWF0IjoxNzg1MDE0NTUzLCJleHAiOjIxMDAzNzQ1NTN9.cJUxEXroGcw1jO61-XbTImmWq-1YHIcl6GpwenPfZ_I</image:loc></image:image>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/f4678842-0c7a-405a-ad48-dd4c7d3ac871/images/6507a695beb947d0950bba45fb5dd937.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy9mNDY3ODg0Mi0wYzdhLTQwNWEtYWQ0OC1kZDRjN2QzYWM4NzEvaW1hZ2VzLzY1MDdhNjk1YmViOTQ3ZDA5NTBiYmE0NWZiNWRkOTM3LmpwZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODUwMTQ1NTMsImV4cCI6MjEwMDM3NDU1M30.ctbvdtb43lMT6iJp-KHDwR6RYoTuf0I-AeiKd6cry4U</image:loc></image:image>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/f4678842-0c7a-405a-ad48-dd4c7d3ac871/images/4b9e37de4d4d4e97a56d3f7c51dba13c.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy9mNDY3ODg0Mi0wYzdhLTQwNWEtYWQ0OC1kZDRjN2QzYWM4NzEvaW1hZ2VzLzRiOWUzN2RlNGQ0ZDRlOTdhNTZkM2Y3YzUxZGJhMTNjLmpwZWciLCJzY29wZSI6ImRvd25sb2FkIiwiaWF0IjoxNzg1MDE0NTUzLCJleHAiOjIxMDAzNzQ1NTN9.p0MyU0eWsSKrWdnWwgqGX_NqD78NoEMbwWj45oPXZtg</image:loc></image:image>
-    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/sign/property-images/workspaces/vera-default/properties/f4678842-0c7a-405a-ad48-dd4c7d3ac871/images/c6fe9af91ba243f2994388791a58b43b.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kYjNhYmFkNi1lZTc1LTRjOGEtYjY4Mi1iNDIyMmNiZDkxYTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9wZXJ0eS1pbWFnZXMvd29ya3NwYWNlcy92ZXJhLWRlZmF1bHQvcHJvcGVydGllcy9mNDY3ODg0Mi0wYzdhLTQwNWEtYWQ0OC1kZDRjN2QzYWM4NzEvaW1hZ2VzL2M2ZmU5YWY5MWJhMjQzZjI5OTQzODg3OTFhNThiNDNiLmpwZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODUwMTQ1NTMsImV4cCI6MjEwMDM3NDU1M30.VE5cTxiWR-DJTj5XNZJb8hAcudznuae3v86c3_gss70</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f4678842-0c7a-405a-ad48-dd4c7d3ac871/images/6507a695beb947d0950bba45fb5dd937.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f4678842-0c7a-405a-ad48-dd4c7d3ac871/images/b40102b598264d3eb47c4580d8043c1e.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f4678842-0c7a-405a-ad48-dd4c7d3ac871/images/4b9e37de4d4d4e97a56d3f7c51dba13c.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f4678842-0c7a-405a-ad48-dd4c7d3ac871/images/c6fe9af91ba243f2994388791a58b43b.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-chalet-3-dorm-con-gas-nat-en-costa-del-este-var-209164/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/2336ddea-8ecd-4e59-b460-49c9532a178a.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/d1b7297e-d1a0-4a84-ab68-9ee68a3f636d.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/1c3aa280-0ae1-4a4c-80d8-d32402d29da1.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/aa9a73f8-e0aa-4433-8a43-93b5cbf4b210.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/3/5843a431-d9e9-46bf-b375-2b0e1ec79e62.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/91bfc941-8578-49d8-93a5-8dcf78f9bf34/images/934d505464c54f5fabbb47f0996857a9.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/91bfc941-8578-49d8-93a5-8dcf78f9bf34/images/19243daabca347d597dd928c9a1a14bf.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/91bfc941-8578-49d8-93a5-8dcf78f9bf34/images/1afc7aaa70cc476a9ae42c2547009523.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/91bfc941-8578-49d8-93a5-8dcf78f9bf34/images/75edc1090bd142e785fd288ad731be43.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/91bfc941-8578-49d8-93a5-8dcf78f9bf34/images/3c49f5a96ce747b7b408b7c6c5ca3d22.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.varelapropiedadescde.com.ar/propiedades/venta-triplex-en-mar-del-tuyu-oportunidad-var-209853/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/4/b8c3fb73-56dc-4b47-bdde-ddefee0d37e5.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/4/528f04f3-ac0a-4864-a8f7-1ee868c3ecb7.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/4/f51c9dc2-361b-45dc-9bf0-e4776a6bb0b1.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/4/70c6b930-19e1-4fd4-9001-04ece59ee72c.jpeg</image:loc></image:image>
-    <image:image><image:loc>https://storage.googleapis.com/portales-prod-images/6488/property-images/2026/4/d18b2bd2-cad5-4127-8256-20cd505a9b7c.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f8892273-7e23-4ca7-8f6f-1aa1fc42d4e2/images/fdad3da5d8784165b640f985f78e774b.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f8892273-7e23-4ca7-8f6f-1aa1fc42d4e2/images/d058c65ea8494d65adafcfdf54a82dc5.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f8892273-7e23-4ca7-8f6f-1aa1fc42d4e2/images/408c842b8bc44bd8a76f5ac71c921281.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f8892273-7e23-4ca7-8f6f-1aa1fc42d4e2/images/c2b507ad7fcf4fe3b3f7c6db0352a0df.jpg</image:loc></image:image>
+    <image:image><image:loc>https://tlptpyhtddwaiwzmzgcg.supabase.co/storage/v1/object/public/property-images/workspaces/vera-default/properties/f8892273-7e23-4ca7-8f6f-1aa1fc42d4e2/images/12c0e1e529674bd8b7bbacc4514f6fb1.jpg</image:loc></image:image>
   </url>
 </urlset>
