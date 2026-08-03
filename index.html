@@ -1058,7 +1058,7 @@ function renderFicha(p) {
   if (p.dormitorios) tags.push(p.dormitorios+' dorm');
   if (p.banios) tags.push(p.banios+' baños');
 
-  const sugerencias = todasProps.filter(x => x.id !== p.id && x.tipo === p.tipo).slice(0, 3);
+  const sugerencias = todasProps.filter(x => x.id !== p.id && x.tipo === p.tipo && x.estado === 'Disponible').slice(0, 3);
 
   cont.innerHTML = `
     <div style="position:sticky;top:0;background:#fff;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #eee;z-index:10;">

@@ -273,7 +273,7 @@ for (const p of props) {
   const specs = specsDe(p);
 
   const similares = activas
-    .filter(x => x.id !== p.id && x.tipo === p.tipo && ciudadDe(x) === c)
+    .filter(x => x.id !== p.id && x.tipo === p.tipo && ciudadDe(x) === c && !reservada(x))
     .slice(0, 3);
 
   const jsonld = {
