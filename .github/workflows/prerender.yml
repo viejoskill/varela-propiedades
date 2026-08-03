@@ -1,0 +1,62 @@
+From 49ea2b9d1d8b709f7082233793681090679a06c8 Mon Sep 17 00:00:00 2001
+From: Claude <claude@anthropic.com>
+Date: Mon, 3 Aug 2026 21:35:48 +0000
+Subject: [PATCH] Automatizar regeneracion de fichas SEO con GitHub Actions
+
+Corre solo cada hora (cron) y tambien se puede disparar a mano desde
+la pestana Actions del repo ('Run workflow') para cambios instantaneos.
+No necesita secrets nuevos: usa la misma key publica que ya esta en
+scripts/prerender.mjs.
+
+Con esto no hace falta mas entrar por SSH a correr
+'node scripts/prerender.mjs' a mano despues de cada cambio en vera-os.
+---
+ .github/workflows/prerender.yml | 37 +++++++++++++++++++++++++++++++++
+ 1 file changed, 37 insertions(+)
+ create mode 100644 .github/workflows/prerender.yml
+
+diff --git a/.github/workflows/prerender.yml b/.github/workflows/prerender.yml
+new file mode 100644
+index 0000000..7a0d5f1
+--- /dev/null
++++ b/.github/workflows/prerender.yml
+@@ -0,0 +1,37 @@
++name: Regenerar fichas SEO
++
++# Corre solo cada hora, y ademas se puede disparar a mano desde la pestana
++# "Actions" del repo en GitHub (boton "Run workflow") cuando se necesita
++# que el cambio se vea reflejado al instante, sin esperar la hora en punto.
++on:
++  schedule:
++    - cron: '0 * * * *'
++  workflow_dispatch: {}
++
++permissions:
++  contents: write
++
++jobs:
++  prerender:
++    runs-on: ubuntu-latest
++    steps:
++      - uses: actions/checkout@v4
++
++      - uses: actions/setup-node@v4
++        with:
++          node-version: 20
++
++      - name: Generar fichas y sitemap
++        run: node scripts/prerender.mjs
++
++      - name: Commitear si hubo cambios
++        run: |
++          git config user.name "github-actions[bot]"
++          git config user.email "github-actions[bot]@users.noreply.github.com"
++          git add propiedades sitemap.xml
++          if git diff --cached --quiet; then
++            echo "Sin cambios, nada que commitear."
++          else
++            git commit -m "Regenerar fichas SEO y sitemap [auto]"
++            git push
++          fi
+-- 
+2.43.0
